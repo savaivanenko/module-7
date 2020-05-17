@@ -58,11 +58,11 @@
       <form class="contact__form" action="#" method="GET">
         <div class="form__wrap">
           <ul class="contact__input__list">
-            <li><input type="text" name="name" placeholder="your name *"></li>
-            <li><input type="email" name="e-mail" placeholder="your e-mail *"></li>
+            <li><input type="text" name="name" placeholder="your name *" required></li>
+            <li><input type="email" name="e-mail" placeholder="your e-mail *" required></li>
             <li><input type="text" name="subject" placeholder="subject"></li>
           </ul>
-          <textarea id="user__message" name="message" placeholder="Your message" minlength="10" maxlength="500"></textarea>
+          <textarea id="user__message" name="message" placeholder="Your message *"require minlength="5" maxlength="500"></textarea>
           
         </div>
       <button type="submit" class="contact__form__btn">Send Message</button>  
